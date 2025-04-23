@@ -9,12 +9,16 @@
 </head>
 <body class="bg-slate-900 text-gray-100 min-h-screen font-sans text-2xl md:text-3xl leading-relaxed">
   <!-- Navbar (same as Home) -->
-  <nav class="fixed w-full top-0 left-0 z-30 transition-all duration-300">
-    <div class="max-w-7xl mx-auto flex justify-between items-center px-4 py-4">
-      <div class="flex items-center space-x-2">
-        <span class="text-yellow-400 text-5xl font-extrabold tracking-wide">Dose of Reality</span>
+  <nav id="navbar" class="fixed w-full top-0 left-0 z-30 transition-all duration-300">
+    <div class="max-w-10xl flex items-center justify-between px-4 sm:px-8 py-4">
+      <!-- Logo -->
+      <div class="flex items-center space-x-3">
+        <img src="./images/favicon.png" class="w-10 h-10 sm:w-13 sm:h-13 md:w-16 md:h-16" alt="Dose of Reality Logo">
+        <span class="text-yellow-400 text-2xl sm:text-3xl md:text-5xl font-extrabold tracking-wide">Dose of Reality</span>
       </div>
-      <div class="hidden md:flex space-x-10 text-gray-100 font-semibold text-xl">
+  
+      <!-- Nav links -->
+      <div class="hidden md:flex space-x-10 text-gray-100  font-semibold text-2xl ml-auto">
         <a href="index.html" class="hover:text-yellow-400">Home</a>
         <a href="about.html" class="hover:text-yellow-400">About</a>
         <a href="know-drugs.html" class="hover:text-yellow-400">Know Drugs</a>
@@ -25,6 +29,7 @@
         <i data-feather="menu"></i>
       </button>
     </div>
+    <!-- Mobile Menu -->
     <div id="mobile-menu" class="hidden md:hidden bg-slate-900 border-t border-slate-800 px-4 pb-4">
       <a href="index.html" class="block py-2 hover:text-yellow-400">Home</a>
       <a href="about.html" class="block py-2 hover:text-yellow-400">About</a>
