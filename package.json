@@ -1,0 +1,21 @@
+{
+  "name": "competition",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tailwindcss -i ./input.css -o ./output.css --watch",
+    "serve": "live-server --no-browser --watch=./",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "tailwindcss": "^4.1.4"
+  },
+  "dependencies": {
+    "competition": "file:"
+  }
+}
